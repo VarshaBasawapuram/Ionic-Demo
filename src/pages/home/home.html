@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    
+      <ion-item>
+        <ion-label fixed>First name</ion-label>
+        <ion-input type="text" value=""></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label fixed>Last name</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+    
+    </ion-list>
+    <button ion-button (click)="nextPage();"ion-button color ="secondary" round> Shakes</button>
+    <ion-card>
+      <img src="https://www.sonicdrivein.com/static/img/logos/full-color.png">
+    </ion-card>
+</ion-content>
